@@ -1,0 +1,197 @@
+
+@use '../abstracts/mixing' as *;
+
+#bienvenida{
+     margin-top : 1rem;
+     @include margenes_base;
+}
+
+#servicios{
+     @include margenes_base;
+}
+
+.servicios__list {
+     @include grilla_base(1.5rem, 1.5rem);
+    }
+
+.servicio__item img {
+     @include imagen_base;
+   }    
+
+#testimonios{
+     margin-top : 1rem;
+     @include margenes_base;
+}
+
+.testimonios__list {
+     @include grilla_base(1.5rem, 0.5rem);
+
+    }
+
+    .testimonio__responsable {
+     font-size: 24px;
+    }
+
+
+
+    @media (max-width : 1024px) {
+
+     .bienvenida__title{
+          font-size: 90%;
+      }    
+      .bienvenida__content{
+           font-size: 70%;          
+      }  
+      .vision__title{
+          font-size: 80%;
+     }       
+     .mision__title{
+          font-size: 80%;
+     }             
+
+      .mision__content{
+          font-size: 70%;          
+     }     
+     .vision__content{
+          font-size: 70%;          
+     }          
+
+     .servicios__title{
+          font-size: 90%;         
+     }
+
+     .servicio__title{
+          font-size: 90%;         
+     }
+
+     .servicios__content{
+          font-size: 70%;          
+     }     
+
+     .servicio__content{
+          font-size: 70%;          
+     }         
+
+     .testimonio__comentario{
+          font-size: 70%;                 
+     }
+
+   
+     .testimonio__title{
+          font-size: 90%;
+     }    
+     .testimonio__paciente{
+          font-size: 90%;
+     }         
+
+ }     
+ 
+ 
+ 
+
+ @media (max-width : 768px) {
+
+     .bienvenida__title{
+          font-size: 70%;
+      }    
+      .bienvenida__content{
+           font-size: 60%;          
+      }  
+      .vision__title{
+          font-size: 65%;
+     }       
+     .mision__title{
+          font-size: 65%;
+     }             
+
+      .mision__content{
+          font-size: 60%;          
+     }     
+     .vision__content{
+          font-size: 60%;          
+     }          
+
+     .servicios__title{
+          font-size: 70%;         
+     }
+
+     .servicio__title{
+          font-size: 70%;         
+     }
+
+     .servicios__content{
+          font-size: 60%;          
+     }     
+
+     .servicio__content{
+          font-size: 60%;          
+     }         
+
+     .testimonio__comentario{
+          font-size: 60%;                 
+     }
+
+   
+     .testimonio__title{
+          font-size: 70%;
+     }    
+     .testimonio__paciente{
+          font-size: 70%;
+     }         
+
+ }    
+ 
+ 
+ 
+ @media (max-width : 480px) {
+
+     .bienvenida__title{
+          font-size: 50%;
+      }    
+      .bienvenida__content{
+           font-size: 40%;          
+      }  
+      .vision__title{
+          font-size: 45%;
+     }       
+     .mision__title{
+          font-size: 45%;
+     }          
+
+      .mision__content{
+          font-size: 40%;          
+     }     
+     .vision__content{
+          font-size: 40%;        
+     }          
+
+     .servicios__title{
+          font-size: 50%;         
+     }
+
+     .servicio__title{
+          font-size: 50%;         
+     }     
+
+     .servicios__content{
+          font-size:40%;           
+     }     
+
+     .servicio__content{
+          font-size: 40%;           
+     }         
+
+     .testimonio__comentario{
+          font-size: 40%;                 
+     }
+
+ 
+     
+     .testimonio__title{
+          font-size: 50%;                 
+     }       
+     
+     .testimonio__paciente{
+          font-size: 50%;                 
+     }       
+ }

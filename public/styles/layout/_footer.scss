@@ -1,0 +1,28 @@
+
+.footer__text {
+    margin-left: 1rem;
+    bottom: 0;
+    right : 10px;
+}
+
+@media (max-width : 1024px) {
+    .footer__text{
+        font-size: 16px;
+    }     
+  
+}  
+
+@media (max-width : 768px) {
+    .footer__text{
+        font-size: 12px;
+    }     
+
+
+}
+
+@media (max-width : 480px) {
+
+    .footer__text{
+        font-size: 8px;
+    }        
+}

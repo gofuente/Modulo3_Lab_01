@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Bienestar</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header class="header">
+      <nav class="header__navbar">
+          <img
+            src="assets/img/logo.png"
+            alt="logo"
+            class="header__logo"
+          />        
+          <ul class="nav__list">            
+            <a href="index.html">Home</a>
+            <a href="equipo_medico.html">Equipo Medico</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="buscarMedico.html">Buscar Medico</a>
+          </ul>
+          <section id="cita-medica" class="header__reserva">
+              <button id="btn_hacerReserva"  type="submit" class="btn btn-danger">Reservar cita</button>
+          </section>                
+      </nav>
+    </header>
+
+
+    <main>
+    <!-- Sección de bienvenida -->      
+      <section id="bienvenida" class="bienvenida">
+        <h1 class="bienvenida__title">Bienvenida</h1>
+        <article>
+            <p  class="bienvenida__content">Bienvenidos a la Clinica Bienestar, Centro médico con más de 15 años de experiencia.</p>
+            <h3 class="mision__title">Misión</h3>
+            <p class="mision__content">Ofrecer un servicio de calidad y sostenible a todos nuestros pacientes.</p>
+            <h3 class="vision__title">Visión</h3>
+            <p class="vision__content">Consolidar la clinica como un centro innovador con prestigio nacional e internacional.</p>
+        </article>
+    </section>
+
+
+
+    <!-- Sección de servicios -->
+    <section id="servicios">
+    <h2 class="servicios__title">Servicios Ofrecidos</h2>
+    <p class="servicios__content">
+      Estos son algunos de nuestros servicios ofrecidos:
+    </p>
+    <div class="container servicios__list">
+      <article class="servicio__item card" style="width: 18rem;">
+        <img src="assets/img/servicio_urgencia.png" class="card-img-top" alt="servicio urgencia">
+        <div class="card-body">
+          <h5 class="card-title">Endocrinologia</h5>
+          <p class="card-text"> Experiencia en tratamiento de enfermedades endocrinas.</p>
+        </div>
+      </article>
+      
+      
+      <article class="servicio__item card" style="width: 18rem;">
+        <img src="assets/img/servicio_hospitalizacion.png" class="card-img-top" alt="servicio hospitalizacion">
+        <div class="card-body">
+          <h5 class="card-title">Hospitalización</h5>
+          <p class="card-text">Dispone de más de 100 camas amplias y comodas.</p>
+        </div>
+      </article>
+      
+      <article class="servicio__item card" style="width: 18rem;">
+        <img src="assets/img/servicio_quirurgicos.png" class="card-img-top" alt="servicio quirurgico">
+        <div class="card-body">
+          <h5 class="card-title">Servicios Quirurgicos</h5>
+          <p class="card-text">Servicios de cirugia general.</p>
+        </div>
+      </article>
+      
+      <article class="servicio__item card" style="width: 18rem;">
+        <img src="assets/img/servicio_farmaceutico.png" class="card-img-top" alt="servicio farmaceutico">
+        <div class="card-body">
+          <h5 class="card-title">Servicios Farmaceuticos</h5>
+          <p class="card-text"> Dispone de medicamentos en dosis unitarias y dispositivos para nuestros pacientes.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Sección de testimonios -->
+  <section id="testimonios" class="container">
+    <h1 class="container testimonio__title">Testimonios.</h1>    
+    <div class="accordion testimonios__list" id="accordionExample">
+        <article class="testimonio__item accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Juan Perez
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          Excelente atención.
+          </div>
+        </div>
+        </article>
+        <article class="testimonio__item accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Luis Sandoval
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          Me brindaron todo el apoyo en esta emergencia.
+          </div>
+        </div>
+        </article>
+        <article class="testimonio__item accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Julieta Morales
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          Una enorme calidad humana.	
+        </div>
+        </article>
+      </div>  
+    </div>
+    </section> 
+    
+  </main>      
+    <footer id="footer">
+        <div>
+            <hr />
+            <p class="footer__text">Todos los derechos reservados © Clinica Bienestar 2024</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module" src="app.js"></script>     
+   
+</body>
+</html>

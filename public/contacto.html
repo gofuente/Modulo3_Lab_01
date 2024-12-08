@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Bienestar</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="header__navbar">
+        <img
+          src="assets/img/logo.png"
+          alt="logo"
+          class="header__logo"
+        />        
+        <ul class="nav__list">            
+          <a href="index.html">Home</a>
+          <a href="equipo_medico.html">Equipo Medico</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="buscarMedico.html">Buscar Medico</a>          
+        </ul>
+          
+    </nav>
+    </header>
+
+    <main>
+ 
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contacto__section">
+        <h2 class="contacto__title">Contáctanos</h2>
+        <p class="contacto__content">
+          Si tiene alguna duda o inquietud Llena el formulario y nos
+          pondremos en contacto.
+        </p>
+        <div class="contacto__container">
+          <!-- Formulario de contacto -->
+           <div class="container">
+          <form class="row g-3">
+           
+            <div class="col-md-12">
+              <label for="inputNombreCompleto" class="form-label">Nombre Completo</label>
+              <input type="text" class="form-control" id="inputNombreCompleto">
+            </div>
+            <div class="col-md-12">
+              <label for="inputEmail" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="inputEmail">
+            </div>  
+            
+            <div class="col-md-12">
+              <label for="inputAsunto" class="form-label">Asunto</label>
+              <input type="text" class="form-control" id="inputAsunto">
+            </div>  
+            
+            <div class="col-md-12">
+              <label for="inputMensaje" class="form-label">Mensaje</label>
+              <input type="textarea" class="form-control" id="inputMensaje">
+            </div>  
+              
+           
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+          <hr />
+
+          <!-- Mapa de ubicación -->
+          <section class="ubicacion">
+            <h2 class="ubicacion__title">Donde Estamos.</h2>
+            <img
+            src="assets/img/Ubicacion.png"
+            alt="servicio urgencia"
+            />      
+          </section>    
+
+
+        </div>
+      </section>
+    </main>
+      
+      <footer id="footer">
+        <div>
+            <hr />
+            <p class="footer__text">Todos los derechos reservados © Clinica Bienestar 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

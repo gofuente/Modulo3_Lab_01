@@ -1,0 +1,14 @@
+
+.contacto__button{
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size : 16px;
+    border : none;
+    cursor: pointer;
+    background-color: $color_boton_contacto;
+    color : $color_letra_blanco;   
+    margin-bottom: 1rem; 
+    &:hover { 
+        background-color: darken($color_boton_contacto, 10%); 
+    }     
+}

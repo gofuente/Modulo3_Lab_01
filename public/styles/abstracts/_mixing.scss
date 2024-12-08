@@ -1,0 +1,20 @@
+@mixin margenes_base {
+    margin-left : $margen_base;
+    margin-right : $margen_base;
+  }
+
+  @mixin grilla_base ($gap, $margen_top){
+    display: grid; 
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(200px, 1fr)
+    ); 
+    gap:$gap; 
+    margin-top: $margen_top; 
+  }  
+
+  @mixin imagen_base {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+  }  

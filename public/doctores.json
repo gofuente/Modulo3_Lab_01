@@ -1,0 +1,63 @@
+[
+    { "nombre": "Juan Guzman", 
+    "especialidad":  "Medicina Interna",
+    "experiencia": 10,
+    "disponibilidad": "true",
+    "horarios":{
+        "dias": ["lunes", "martes", "miercoles", "jueves", "viernes"]
+    },
+    "contacto":{
+        "celular" : 71943396,
+        "mail": "jguzman@clinica_bienestar.com"
+    }
+},
+    { "nombre": "Luis Perez", 
+    "especialidad":  "Ginecologia y Obstetricia",
+    "experiencia": 20,
+    "disponibilidad": "true",
+    "horarios":{
+        "dias": ["lunes", "miercoles", "viernes"]
+    },
+    "contacto":{
+        "celular" : 61933382,
+        "mail": "lperez@clinica_bienestar.com"
+    }
+},
+    { "nombre": "Josefina Maturana", 
+    "especialidad":  "Psicologia",
+    "experiencia": 5,
+    "disponibilidad": "true",
+    "horarios":{
+        "dias": ["lunes", "martes" , "miercoles", "viernes"]
+    },
+    "contacto":{
+        "celular" : 63933324,
+        "mail": "jmaturana@clinica_bienestar.com"
+    }
+},
+
+    { "nombre": "Marcela Muñoz", 
+    "especialidad":  "Anestesiologa",
+    "experiencia": 2,
+    "disponibilidad": "true",
+    "horarios":{
+        "dias": ["lunes", "martes" , "jueves", "viernes"]
+    },
+    "contacto":{
+        "celular" : 63823324,
+        "mail": "mmunoz@clinica_bienestar.com"
+    }
+},
+    { "nombre": "Francisco Barra", 
+    "especialidad":  "Medicina General",
+    "experiencia": 15,
+    "disponibilidad": "false",
+    "horarios":{
+        "dias": ["lunes", "martes" , "jueves", "viernes"]
+    },
+    "contacto":{
+        "celular" : 62523324,
+        "mail": "fbarra@clinica_bienestar.com"
+    }
+}
+]

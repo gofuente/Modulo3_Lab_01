@@ -1,0 +1,152 @@
+@use '../abstracts/mixing' as *;
+
+
+#medicos{
+     @include margenes_base;
+}
+
+#presentacion{
+     @include margenes_base;
+}
+
+.medicos__list {
+     @include grilla_base(1.5rem, 1.5rem);
+    }
+
+.medico__item img {
+     @include imagen_base;
+   }    
+
+
+   @media (max-width : 1024px) {
+
+     .presentacion__title{
+          font-size: 90%;
+      }    
+      .presentacion__content{
+           font-size: 70%;          
+      }  
+      .vision__title{
+          font-size: 80%;
+     }       
+     .mision__title{
+          font-size: 80%;
+     }             
+
+      .mision__content{
+          font-size: 70%;          
+     }     
+     .vision__content{
+          font-size: 70%;          
+     }          
+
+     .medicos__title{
+          font-size: 90%;         
+     }
+
+     .medico__title{
+          font-size: 90%;         
+     }
+
+     .medicos__content{
+          font-size: 70%;          
+     }     
+
+     .medico__content{
+          font-size: 70%;          
+     }   
+
+	 .medico__experience{
+          font-size: 70%;          
+     }    
+     
+
+ }    
+ @media (max-width : 768px) {
+
+     .presentacion__title{
+          font-size: 70%;
+      }    
+      .presentacion__content{
+           font-size: 60%;          
+      }  
+      .vision__title{
+          font-size: 65%;
+     }       
+     .mision__title{
+          font-size: 65%;
+     }             
+
+      .mision__content{
+          font-size: 60%;          
+     }     
+     .vision__content{
+          font-size: 60%;          
+     }          
+
+     .medicos__title{
+          font-size: 70%;         
+     }
+
+     .medico__title{
+          font-size: 70%;         
+     }
+
+     .medicos__content{
+          font-size: 60%;          
+     }     
+
+     .medico__content{
+          font-size: 60%;          
+     }   
+
+	 .medico__experience{
+          font-size: 60%;          
+     }    
+     
+
+ }    
+
+ @media (max-width : 480px) {
+
+     .presentacion_title{
+          font-size: 55%;
+      }    
+      .presentacion__content{
+           font-size: 40%;          
+      }  
+      .vision__title{
+          font-size: 50%;
+     }       
+     .mision__title{
+          font-size: 50%;
+     }          
+
+      .mision__content{
+          font-size: 45%;          
+     }     
+     .vision__content{
+          font-size: 45%;        
+     }          
+
+     .medicos__title{
+          font-size: 55%;         
+     }
+
+     .medico__title{
+          font-size: 55%;         
+     }     
+
+     .medicos__content{
+          font-size:45%;           
+     }     
+
+     .medico__content{
+          font-size: 45%;           
+     } 
+
+	 .medico__experience{
+          font-size: 45%;          
+     }    
+ }      
+

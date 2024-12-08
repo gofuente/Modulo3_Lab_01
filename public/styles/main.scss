@@ -1,0 +1,12 @@
+
+@import 'abstracts/variables';
+@import 'abstracts/mixing';
+@import 'components/buttons';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/home';
+@import 'pages/equipo_medico';
+@import 'pages/contacto';
+
+$danger : $color_boton_cita;
+@import 'vendors/bootstrap';

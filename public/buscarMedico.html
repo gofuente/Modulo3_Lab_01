@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Bienestar</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="header__navbar">
+        <img
+          src="assets/img/logo.png"
+          alt="logo"
+          class="header__logo"
+        />        
+        <ul class="nav__list">            
+          <a href="index.html">Home</a>
+          <a href="equipo_medico.html">Equipo Medico</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="buscarMedico.html">Buscar Medico</a>          
+        </ul>
+          
+    </nav>
+
+
+    </header>
+
+
+    <main>
+
+      <section id="buscarMedico" class="buscarMedico">
+        <h1 class="buscarMedico__title">Busqueda de Médico</h1>
+        <article>
+            <p class="buscarMedico__content">Le permite buscar a un medico dentro de nuestro sistema</p>
+        </article>
+    </section>
+
+    <section id="criterios"></section>
+    
+    <div class="container">
+      <div class="col-lg-12 col-md-12  col-sd-12 col-xs-12 row row-view">
+          <form class="row g-3">      
+
+            <div class="col-lg-6 col-md-6 col-sd-6 col-xs-12 row-view">
+              <div class="col-lg-4 col-md-4 col-sd-4 col-xs-8">
+                <label>Nombre</label>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sd-6 col-xs-8">
+                <input type="text" class="form-control fil inputValidator" id="buscNombre" placeholder="" >
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sd-2 col-xs-12 row-view">
+              <div class="col-lg-4 col-md-4 col-sd-4 col-xs-4">
+                <label></label>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sd-8 col-xs-8">
+                <button id="btn_FiltrarMedico" class="btn pull-right btn-primary">Buscar</button>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sd-2 col-xs-12 row-view">
+              <div class="col-lg-4 col-md-4 col-sd-4 col-xs-4">
+                <label></label>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sd-8 col-xs-8">
+                <button id="btn_Clonar" class="btn pull-right btn-primary">Clonar</button>
+              </div>
+            </div>     
+            
+            <div class="col-lg-2 col-md-2 col-sd-2 col-xs-12 row-view">
+              <div class="col-lg-4 col-md-4 col-sd-4 col-xs-4">
+                <label></label>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sd-8 col-xs-8">
+                <button id="btn_Disponibles" class="btn pull-right btn-info">Medicos Disponibles</button>
+              </div>
+            </div>                
+
+        </form>    
+    </div>
+  </div>
+    <!-- Sección medicos encontrados -->
+    <section id="medicosEncontrados" class="section-medicosEncontrados">
+    <h2 class="medicosEncontrados__title">Equipo Medico encontrado</h2>
+    <p class="medicosEncontrados__list">
+      <ul id="idListaMedicos"></ul>
+    </p>
+           
+    <section id="medicosDisponibles" class="section-medicosDisponibles">
+      <h2 class="medicosDisponibles__title">Equipo Medico disponible</h2>
+      <p class="medicosDisponibles__list">
+        <ul id="idListaMedicosDisponibles"></ul>
+      </p>    
+     
+    </div>
+  </section>
+</main>
+      
+  <footer id="footer">
+    <div>
+        <hr />
+        <p class="footer__text">Todos los derechos reservados © Clinica Bienestar 2024</p>
+    </div>
+</footer>
+<script type="module" src="buscarMedico.js"></script>    
+</body>
+</html>
